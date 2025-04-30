@@ -8,7 +8,7 @@ export default async function handler(req, res) {
       'Authorization': 'Bearer VBEW6dMjWIUrWxBXIi/3V4JXYzZ8RD/5Q7SvvNWR875esT2mPEs39f1UTQcfFbSwAVcRPANUcFdUPia0FEzzWgCVNZg+NhQdDzMybM0vc6s8SIh7g6oEKW4jJqBbvbiqOPi2jNpWAB+EzmrI+5LOhAdB04t89/1O/w1cDnyilFU='
     },
     body: JSON.stringify({
-      to: 'Uf783157850ea9d9e24d4a9accdxxxxxxxx',
+      to: Uf783157850ea9d9e24d4a9accd9c6f2a
       messages: [
         {
           type: 'text',
