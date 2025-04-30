@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer VBEW6dMjWIUrWxBXIi/3V4JXYzZ8RD/5Q7SvvNWR875esT2mPEs39fIUTQcfFbSwAVcRPANUcFdUPia0FEzzWgCVNZg+NhQdDzMybMOvc6s8SIh7g6oEKW4jJqBbvbiqOPi2jNpWAB+EzmrI+5L0hAdB04t89/1O/w1cDnyilFU='
+      'Authorization': 'Bearer /3V4JXYzZ8RD/5Q7SvvNWR875esT2mPEs39fIUTQcfFbSwAVcRPANUcFdUPia0FEzzWgCVNZg+NhQdDzMybMOvc6s8SIh7g6oEKW4jJqBbvbiqOPi2jNpWAB+EzmrI+5L0hAdB04t89/1O/w1cDnyilFU
     },
     body: JSON.stringify({
       to: 'Uf783157850ea9d9e24d4a9accd9c6f2a',
