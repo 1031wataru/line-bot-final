@@ -1,5 +1,7 @@
 export default async function handler(req, res) {
   if (req.method === 'POST') {
+    console.log('ユーザーID:', req.body.events[0]?.source?.userId);
+
     const events = req.body.events;
 
     const replies = events.map(async (event) => {
@@ -11,7 +13,7 @@ export default async function handler(req, res) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer VBEW6dMjWIUrWxBXIi/3V4JXYzZ8RD/5Q7SvvNWR875esT2mPEs39flUTQcfFbSwAVcRPANUcFdUPia0FEzzWgCVNZg+NhQdDzMybM0vc6s8SIh7g6oEKW4jJqBbvbiqOPi2jNpWAB+EzmrI+5LOhAdB04t89/1O/w1cDnyilFU=',
+            'Authorization': 'Bearer VBEW6dMjWIUrWxBXIi/3V4JXYzZ8RD/5Q7SvvNWR875esT2mPEs39f1UTQcfFbSwAVcRPANUcFdUPia0FEzzWgCVNZg+NhQdDzMybM0vc6s8SIh7g6oEKW4jJqBbvbiqOPi2jNpWAB+EzmrI+5LOhAdB04t89/1O/w1cDnyilFU=',
           },
           body: JSON.stringify({
             replyToken: replyToken,
