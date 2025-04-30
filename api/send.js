@@ -5,17 +5,17 @@ export default async function handler(req, res) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer VBEW6dMjWIUrWxBXIi/3V4JXYzZ8RD/5Q7SvvNWR875esT2mPEs39f1UTQcfFbSwAVcRPANUcFdUPia0FEzzWgCVNZg+NhQdDzMybM0vc6s8SIh7g6oEKW4jJqBbvbiqOPi2jNpWAB+EzmrI+5LOhAdB04t89/1O/w1cDnyilFU='
+      'Authorization': 'Bearer VBEW6dMjWIUrWxBXIi/3V4JXYzZ8RD/5Q7SvvNWR875esT...（省略）',
     },
     body: JSON.stringify({
-      to: Uf783157850ea9d9e24d4a9accd9c6f2a
+      to: 'Uf783157850ea9d9e24d4a9accd9c6f2a',
       messages: [
         {
           type: 'text',
-          text: message
-        }
-      ]
-    })
+          text: message,
+        },
+      ],
+    }),
   });
 
   res.status(200).send('通知を送信しました！');
